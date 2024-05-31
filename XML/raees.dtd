@@ -1,0 +1,4 @@
+<!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT number (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
