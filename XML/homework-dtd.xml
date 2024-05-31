@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE company [
-    <!ELEMENT company (employ, client)*>
-    <!ELEMENT employ (name, (email, number)+, password)>
-    <!ELEMENT client (name, email, password)>
-    <!ELEMENT name (#PCDATA)>
-    <!ELEMENT email (#PCDATA)>
-    <!ELEMENT number (#PCDATA)>
-    <!ELEMENT password (#PCDATA)>
+    
     
 ]>
 <company>

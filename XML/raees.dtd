@@ -1,4 +1,7 @@
-<!ELEMENT name (#PCDATA)>
+<!ELEMENT company (employ, client)?>
+    <!ELEMENT employ (name, (email| number)+, password)>
+    <!ELEMENT client (name, email, password)>
+    <!ELEMENT name (#PCDATA)>
     <!ELEMENT email (#PCDATA)>
     <!ELEMENT number (#PCDATA)>
     <!ELEMENT password (#PCDATA)>
